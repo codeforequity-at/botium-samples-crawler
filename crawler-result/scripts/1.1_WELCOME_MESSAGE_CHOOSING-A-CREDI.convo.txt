@@ -1,0 +1,14 @@
+1.1_WELCOME_MESSAGE_Choosing a credi
+
+#bot
+UTT_M1_HELLO-I-AM-THE-BANK'S-VIRTUAL-A
+
+#bot
+UTT_M2_I-CAN-HELP-YOU-WITH-A-NUMBER-OF
+BUTTONS Making a credit card payment|Booking an appointment with a banker|Choosing a credit card
+
+#me
+BUTTON Help me choose a credit card|Choosing a credit card
+
+#bot
+UTT_1.1_WELCOME_MESSAGE_CHOOSING-A-CREDI_BOT_3

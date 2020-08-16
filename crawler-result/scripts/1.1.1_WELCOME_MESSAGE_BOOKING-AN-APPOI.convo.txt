@@ -1,0 +1,26 @@
+1.1.1_WELCOME_MESSAGE_Booking an appoi
+
+#bot
+UTT_M1_HELLO-I-AM-THE-BANK'S-VIRTUAL-A
+
+#bot
+UTT_M2_I-CAN-HELP-YOU-WITH-A-NUMBER-OF
+BUTTONS Making a credit card payment|Booking an appointment with a banker|Choosing a credit card
+
+#me
+BUTTON I want to book an appointment with a banker|Booking an appointment with a banker
+
+#bot
+UTT_M6_I-CAN-HELP-YOU-SCHEDULE-AN-APPOI
+
+#bot
+UTT_M7_WHICH-DATE-WOULD-BE-BEST-FOR-YOU
+
+#me
+next tuesday
+
+#bot
+UTT_1.1.1_WELCOME_MESSAGE_BOOKING-AN-APPOI_BOT_5
+
+#bot
+UTT_M8_WHAT-TIME-WOULD-YOU-LIKE-TO-MEET

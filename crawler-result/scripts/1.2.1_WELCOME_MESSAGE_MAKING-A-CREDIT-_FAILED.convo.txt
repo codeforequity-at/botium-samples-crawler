@@ -1,0 +1,24 @@
+1.2.1_WELCOME_MESSAGE_Making a credit _FAILED
+
+#bot
+UTT_M1_HELLO-I-AM-THE-BANK'S-VIRTUAL-A
+
+#bot
+UTT_M2_I-CAN-HELP-YOU-WITH-A-NUMBER-OF
+BUTTONS Making a credit card payment|Booking an appointment with a banker|Choosing a credit card
+
+#me
+BUTTON I want to make a credit card payment|Making a credit card payment
+
+#bot
+UTT_M3_I-CAN-HELP-YOU-WITH-CREDIT-CARD
+
+#bot
+UTT_M4_ONE-MOMENT-WHILE-I-RETRIEVE-A-LI
+
+#bot
+UTT_M5_PLEASE-SELECT-WHICH-CREDIT-CARD
+BUTTONS Card # 5624|Card # 5893|Card # 9225
+
+#me
+BUTTON 5893|Card # 5893

@@ -1,0 +1,79 @@
+[
+  {
+    "path": "*welcome_message_entry_point*;Booking an appointment with a banker\"I want to book an appointment with a banker\"",
+    "script": "WELCOME_MESSAGE_Booking an appoi\n\n#bot\nHello, I am the bank's Virtual Agent.\n\n#bot\nI can help you with a number of banking tasks:\nBUTTONS Making a credit card payment|Booking an appointment with a banker|Choosing a credit card\n\n#me\nBUTTON I want to book an appointment with a banker|Booking an appointment with a banker\n\n#bot\nI can help you schedule an appointment with one of our bankers.\n\n#bot\nWhich date would be best for you? We need 24 hours notice for an appointment, the earliest would be tomorrow.\n",
+    "answers": [
+      "next monday",
+      "next tuesday",
+      "friday next week"
+    ]
+  },
+  {
+    "path": "*welcome_message_entry_point*;Choosing a credit card\"Help me choose a credit card\"",
+    "script": "WELCOME_MESSAGE_Choosing a credi\n\n#bot\nHello, I am the bank's Virtual Agent.\n\n#bot\nI can help you with a number of banking tasks:\nBUTTONS Making a credit card payment|Booking an appointment with a banker|Choosing a credit card\n\n#me\nBUTTON Help me choose a credit card|Choosing a credit card\n\n#bot\nI can help you find a credit card to suit your needs. We have credit cards to build credit, provide rewards, and help you save money. What are you looking for most in a credit card?\n",
+    "answers": []
+  },
+  {
+    "path": "*welcome_message_entry_point*;Booking an appointment with a banker\"I want to book an appointment with a banker\";tomorrow",
+    "script": "WELCOME_MESSAGE_Booking an appoi\n\n#bot\nHello, I am the bank's Virtual Agent.\n\n#bot\nI can help you with a number of banking tasks:\nBUTTONS Making a credit card payment|Booking an appointment with a banker|Choosing a credit card\n\n#me\nBUTTON I want to book an appointment with a banker|Booking an appointment with a banker\n\n#bot\nI can help you schedule an appointment with one of our bankers.\n\n#bot\nWhich date would be best for you? We need 24 hours notice for an appointment, the earliest would be tomorrow.\n\n#me\ntomorrow\n\n#bot\nGreat, Mon, Aug 17, 2020.\n\n#bot\nWhat time would you like to meet with our banker?\n",
+    "answers": [
+      "10:00",
+      "in the afternoon",
+      "at lunchtime"
+    ]
+  },
+  {
+    "path": "*welcome_message_entry_point*;Booking an appointment with a banker\"I want to book an appointment with a banker\";tomorrow;10:00",
+    "script": "WELCOME_MESSAGE_Booking an appoi\n\n#bot\nHello, I am the bank's Virtual Agent.\n\n#bot\nI can help you with a number of banking tasks:\nBUTTONS Making a credit card payment|Booking an appointment with a banker|Choosing a credit card\n\n#me\nBUTTON I want to book an appointment with a banker|Booking an appointment with a banker\n\n#bot\nI can help you schedule an appointment with one of our bankers.\n\n#bot\nWhich date would be best for you? We need 24 hours notice for an appointment, the earliest would be tomorrow.\n\n#me\ntomorrow\n\n#bot\nGreat, Mon, Aug 17, 2020.\n\n#bot\nWhat time would you like to meet with our banker?\n\n#me\n10:00\n\n#bot\nOkay, 10:00 AM.\n\n#bot\nLet's find your closest branch. What is your zip code?\n",
+    "answers": [
+      "10001",
+      "10002"
+    ]
+  },
+  {
+    "path": "*welcome_message_entry_point*;Booking an appointment with a banker\"I want to book an appointment with a banker\";next monday",
+    "script": "WELCOME_MESSAGE_Booking an appoi\n\n#bot\nHello, I am the bank's Virtual Agent.\n\n#bot\nI can help you with a number of banking tasks:\nBUTTONS Making a credit card payment|Booking an appointment with a banker|Choosing a credit card\n\n#me\nBUTTON I want to book an appointment with a banker|Booking an appointment with a banker\n\n#bot\nI can help you schedule an appointment with one of our bankers.\n\n#bot\nWhich date would be best for you? We need 24 hours notice for an appointment, the earliest would be tomorrow.\n\n#me\nnext monday\n\n#bot\nGreat, Mon, Aug 17, 2020.\n\n#bot\nWhat time would you like to meet with our banker?\n",
+    "answers": [
+      "at 2 pm"
+    ]
+  },
+  {
+    "path": "*welcome_message_entry_point*;Booking an appointment with a banker\"I want to book an appointment with a banker\";in two weeks",
+    "script": "WELCOME_MESSAGE_Booking an appoi\n\n#bot\nHello, I am the bank's Virtual Agent.\n\n#bot\nI can help you with a number of banking tasks:\nBUTTONS Making a credit card payment|Booking an appointment with a banker|Choosing a credit card\n\n#me\nBUTTON I want to book an appointment with a banker|Booking an appointment with a banker\n\n#bot\nI can help you schedule an appointment with one of our bankers.\n\n#bot\nWhich date would be best for you? We need 24 hours notice for an appointment, the earliest would be tomorrow.\n\n#me\nin two weeks\n\n#bot\nUnfortunately our bankers aren't available on Sundays.\n\n#bot\nWhich date would be best for you? We need 24 hours notice for an appointment, the earliest would be tomorrow.\n",
+    "answers": []
+  },
+  {
+    "path": "*welcome_message_entry_point*;Booking an appointment with a banker\"I want to book an appointment with a banker\";tomorrow;in the afternoon",
+    "script": "WELCOME_MESSAGE_Booking an appoi\n\n#bot\nHello, I am the bank's Virtual Agent.\n\n#bot\nI can help you with a number of banking tasks:\nBUTTONS Making a credit card payment|Booking an appointment with a banker|Choosing a credit card\n\n#me\nBUTTON I want to book an appointment with a banker|Booking an appointment with a banker\n\n#bot\nI can help you schedule an appointment with one of our bankers.\n\n#bot\nWhich date would be best for you? We need 24 hours notice for an appointment, the earliest would be tomorrow.\n\n#me\ntomorrow\n\n#bot\nGreat, Mon, Aug 17, 2020.\n\n#bot\nWhat time would you like to meet with our banker?\n\n#me\nin the afternoon\n\n#bot\nOkay, 12:00 PM.\n\n#bot\nLet's find your closest branch. What is your zip code?\n",
+    "answers": [
+      "10002"
+    ]
+  },
+  {
+    "path": "*welcome_message_entry_point*;Booking an appointment with a banker\"I want to book an appointment with a banker\";tomorrow;at lunchtime;1020",
+    "script": "WELCOME_MESSAGE_Booking an appoi\n\n#bot\nHello, I am the bank's Virtual Agent.\n\n#bot\nI can help you with a number of banking tasks:\nBUTTONS Making a credit card payment|Booking an appointment with a banker|Choosing a credit card\n\n#me\nBUTTON I want to book an appointment with a banker|Booking an appointment with a banker\n\n#bot\nI can help you schedule an appointment with one of our bankers.\n\n#bot\nWhich date would be best for you? We need 24 hours notice for an appointment, the earliest would be tomorrow.\n\n#me\ntomorrow\n\n#bot\nGreat, Mon, Aug 17, 2020.\n\n#bot\nWhat time would you like to meet with our banker?\n\n#me\nat lunchtime\n\n#bot\nOkay, 12:00 PM.\n\n#bot\nLet's find your closest branch. What is your zip code?\n\n#me\n1020\n\n#bot\nI'm having some trouble understanding the time you've mentioned. To provide a time simply enter it with an am/pm indicator, or in 24 hour time. For example, 2:30pm, or 14:30.\n\n#bot\nLet's find your closest branch. What is your zip code?\n",
+    "answers": [
+      "10001"
+    ]
+  },
+  {
+    "path": "*welcome_message_entry_point*;Booking an appointment with a banker\"I want to book an appointment with a banker\";tomorrow;at lunchtime;1020;10001",
+    "script": "WELCOME_MESSAGE_Booking an appoi\n\n#bot\nHello, I am the bank's Virtual Agent.\n\n#bot\nI can help you with a number of banking tasks:\nBUTTONS Making a credit card payment|Booking an appointment with a banker|Choosing a credit card\n\n#me\nBUTTON I want to book an appointment with a banker|Booking an appointment with a banker\n\n#bot\nI can help you schedule an appointment with one of our bankers.\n\n#bot\nWhich date would be best for you? We need 24 hours notice for an appointment, the earliest would be tomorrow.\n\n#me\ntomorrow\n\n#bot\nGreat, Mon, Aug 17, 2020.\n\n#bot\nWhat time would you like to meet with our banker?\n\n#me\nat lunchtime\n\n#bot\nOkay, 12:00 PM.\n\n#bot\nLet's find your closest branch. What is your zip code?\n\n#me\n1020\n\n#bot\nI'm having some trouble understanding the time you've mentioned. To provide a time simply enter it with an am/pm indicator, or in 24 hour time. For example, 2:30pm, or 14:30.\n\n#bot\nLet's find your closest branch. What is your zip code?\n\n#me\n10001\n\n#bot\nOkay, zip code 10001.\n\n#bot\nThank you for providing the required information!\n",
+    "answers": []
+  },
+  {
+    "path": "*welcome_message_entry_point*;Booking an appointment with a banker\"I want to book an appointment with a banker\";next tuesday",
+    "script": "WELCOME_MESSAGE_Booking an appoi\n\n#bot\nHello, I am the bank's Virtual Agent.\n\n#bot\nI can help you with a number of banking tasks:\nBUTTONS Making a credit card payment|Booking an appointment with a banker|Choosing a credit card\n\n#me\nBUTTON I want to book an appointment with a banker|Booking an appointment with a banker\n\n#bot\nI can help you schedule an appointment with one of our bankers.\n\n#bot\nWhich date would be best for you? We need 24 hours notice for an appointment, the earliest would be tomorrow.\n\n#me\nnext tuesday\n\n#bot\nGreat, Tue, Aug 18, 2020.\n\n#bot\nWhat time would you like to meet with our banker?\n",
+    "answers": []
+  },
+  {
+    "path": "*welcome_message_entry_point*;Booking an appointment with a banker\"I want to book an appointment with a banker\";friday next week",
+    "script": "WELCOME_MESSAGE_Booking an appoi\n\n#bot\nHello, I am the bank's Virtual Agent.\n\n#bot\nI can help you with a number of banking tasks:\nBUTTONS Making a credit card payment|Booking an appointment with a banker|Choosing a credit card\n\n#me\nBUTTON I want to book an appointment with a banker|Booking an appointment with a banker\n\n#bot\nI can help you schedule an appointment with one of our bankers.\n\n#bot\nWhich date would be best for you? We need 24 hours notice for an appointment, the earliest would be tomorrow.\n\n#me\nfriday next week\n\n#bot\nGreat, Fri, Aug 28, 2020.\n\n#bot\nWhat time would you like to meet with our banker?\n",
+    "answers": []
+  },
+  {
+    "path": "*welcome_message_entry_point*;Booking an appointment with a banker\"I want to book an appointment with a banker\";next monday;at 2 pm",
+    "script": "WELCOME_MESSAGE_Booking an appoi\n\n#bot\nHello, I am the bank's Virtual Agent.\n\n#bot\nI can help you with a number of banking tasks:\nBUTTONS Making a credit card payment|Booking an appointment with a banker|Choosing a credit card\n\n#me\nBUTTON I want to book an appointment with a banker|Booking an appointment with a banker\n\n#bot\nI can help you schedule an appointment with one of our bankers.\n\n#bot\nWhich date would be best for you? We need 24 hours notice for an appointment, the earliest would be tomorrow.\n\n#me\nnext monday\n\n#bot\nGreat, Mon, Aug 17, 2020.\n\n#bot\nWhat time would you like to meet with our banker?\n\n#me\nat 2 pm\n\n#bot\nOkay, 2:00 PM.\n\n#bot\nLet's find your closest branch. What is your zip code?\n",
+    "answers": []
+  }
+]
