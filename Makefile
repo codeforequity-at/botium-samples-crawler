@@ -1,11 +1,13 @@
 pull:
 		docker pull botium/botium-cli
 
-emulator:
+chat:
 		docker run --rm -v $(shell pwd):/app/workdir -it botium/botium-cli emulator console
 
-crawl:
+clean:
 		sudo rm -rf crawler-result/scripts/
+
+crawl:
 		docker run --rm -v $(shell pwd):/app/workdir -it botium/botium-cli crawler-run --numberOfWelcomeMessages 2 --waitForPrompt 1000 --depth 5
 
 feedback:
