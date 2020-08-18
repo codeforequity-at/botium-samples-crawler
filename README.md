@@ -31,6 +31,8 @@ This will take some minutes. Afterwards, run this command to enter a text-based 
 
     $ make chat
 
+If the chat is showing the welcome message from the Watson Assistant, we are fine. Enter _#EXIT_ to cancel the chat.
+
 Now everything is prepared for launching the crawler. Run this command:
 
     $ make crawl
